@@ -1,4 +1,14 @@
-p
-{
-	color:green;
+@font-face {
+	font-family: "mapoliceCV";
+	src: url(SpecialElite.ttf);
 }
+body{
+	font-family: "mapoliceCV";
+}
+
+
+
+
+
+#photo{
+	max-width: 100px
