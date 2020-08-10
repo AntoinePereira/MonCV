@@ -1,14 +1,106 @@
 @font-face {
-	font-family: "mapoliceCV";
-	src: url(SpecialElite.ttf);
+  font-family: "mapoliceCV";
+  src: url(SpecialElite.ttf);
 }
 body{
-	font-family: "mapoliceCV";
+  font-family: "mapoliceCV", arial, sans-serif;
+ display:flex;
+ flex-direction: column;
+ border: black solid 10px;
+}
+strong{
+  font-style: bold;
+}
+h2{
+  text-decoration: underline;
+}
+.asouligner{
+   text-decoration: underline; 
+   text-decoration-color: #0077B5; 
+}
+h4{
+  font-style: italic;
+}
+header{
+  justify-content: space-around;
+  color: black;
+  text-align: center;
+  padding: 2%;
+  border: #0077B5 solid 5px;
+}
+#nom{
+font-size: 3em;
+}
+#prenom{
+  font-size: 3em;
+  color:#0077B5;
+}
+#devweb{
+  font-size: 2.5em;
+}
+#divphoto{
+  background-color: #0077B5;
+}
+#photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: black solid 5px;
+}
+img{
+  border-radius: 50%;
+  min-width: 400px;
+  max-width: 1000px;
+  min-height: 300px;
+  max-height: 600px;
+}
+#contact{
+  min-height: 400px;
+  font-size: 3em;
+  padding: 3%;
+  border-top: black solid 15px;
+}
+#apropos{
+  min-height: 400px;
+  font-size: 3em;
+  padding: 3%;
+}
+#loisirs{
+  min-height: 250px;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 3%;
+  border: black solid 5px;
+}
+#logos{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.3em;
+  color: #0077B5;
+  padding: 3%;
+}
+#formation{
+font-size: 3em;
+padding: 2%;
+}
+#xppro{
+  font-size: 3em;
+  padding: 2%;
+}
+footer{
+  font-size: 3em;
+  color: black;
+  background-color: #0077B5;
+  padding: 3%;
+  border-top: black solid 15px;
+}
+#mesrecommandations{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 800px;
 }
 
 
 
-
-
-#photo{
-	max-width: 100px

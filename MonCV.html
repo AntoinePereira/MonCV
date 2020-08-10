@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>CV Antoine</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://kit.fontawesome.com/4537b68e2c.js" crossorigin="anonymous"></script>
@@ -9,63 +10,93 @@
 
 <body>
   <header>
-    <h1>ANTOINE PEREIRA Developpeur web freelance
-    </h1>
+    <h1><span id="prenom">ANTOINE</span> <span id="nom">PEREIRA</span></h1>
+          <span id="devweb"><span class="asouligner"> Develo</span>ppeur web</span>
   </header>
   <section id="sidebar">
-    <img src="profile_pic.png" alt="Photo de profile" id=photo>
-    <h2>CONTACT</h2>
-      <span>Adresse rue Nomderue Ville, Pays</span>
-      <span>Téléphone 01 02 03 04 05</span>
-      <span>Email nom@email.com</span>
-      <span>Site Web www.name.com</span>
-    <h2>A PROPOS DE MOI</h2>
+    <div id=divphoto><img src="profile_pic.png" alt="Photo de profile" id=photo></div>
+    <section id=contact>
+      <h2>CONTACT</h2>
+      <p><span class="asouligner">Adresse:</span> 3 rue Nomderue,<br>42000 Ville, PAYS</p>
+      <p><span class="asouligner">Téléphone:</span> 01 02 03 04 05</p>
+      <p><span class="asouligner">Email:</span> nom@email.com</p>        <p><span class="asouligner">Site Web:</span> www.name.com</p>
+    </section>
+    <section id=apropos>
+      <h2>A PROPOS DE MOI</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h2>LOISIRS</h2>
-      <i class="fas fa-futbol"></i>
-      <i class="fas fa-book"></i>
-      <i class="fas fa-campground"></i>
+    </section>
+    <section id="loisirs">
+      <h2>LOISIRS</h2>
+      <div id="logos">
+        <div><i class="fas fa-futbol" id="logofoot">Sports</i></div>
+        <div><i class="fas fa-book" id="logobook">Books</i></div>
+        <div><i class="fas fa-campground" id="logocamping">Camping</i></div>
+      </div>
+    </section>
   </section>  
-  <section><!-- section principale -->
-    <h2><i class="fas fa-graduation-cap"></i>FORMATION</h2>
+  <main>
+    <section id="formation">
+      <h2><i class="fas fa-graduation-cap"></i>FORMATION</h2>
       <ul>
-        <li>2016 à 2017 <span><h3>OPENCLASSROOMS</h3>
-                        <h4>Web developer</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></span>
+        <li>2016 à 2017 
+          <div>
+            <h3>OPENCLASSROOMS</h3>
+            <h4>Web developer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
         </li>
-        <li>2015 à 2016 <span><h3>UNIVERSITY OF LOREM</h3>
-                                <h4>Junior web developer</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></span>
+        <li>2015 à 2016 
+          <div>
+            <h3>UNIVERSITY OF LOREM</h3>
+            <h4>Junior web developer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
         </li>
       </ul>
-    <h2><i class="fas fa-briefcase"></i>EXPERIENCE PROESSIONNELLE</h2>
+    </section>
+    <section id="xppro">
+      <h2><i class="fas fa-briefcase"></i>EXPERIENCE PROESSIONNELLE</h2>
       <ul>
-        <li>2019 à 2020<span><h3>TECH COMPANY</h3>
-                              <h4>Web developer</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></span>
+        <li>2019 à 2020
+          <div>
+            <h3>TECH COMPANY</h3>
+            <h4>Web developer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit   esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
         </li>
-        <li>2018 à 2019<span><h3>TECH COMPANY</h3>
-                              <h4>Web developer</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></span>
+        <li>2018 à 2019
+          <div>
+            <h3>TECH COMPANY</h3>
+            <h4>Web developer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>                            
         </li>
-        <li>2017 à 2018<span><h3>TECH COMPANY</h3>
-                              <h4>Web developer</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></span>
+        <li>2017 à 2018
+          <div>
+            <h3>TECH COMPANY</h3>
+            <h4>Web developer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
         </li>
       </ul>
-  </section>
+    </section>
+  </main>
   <footer>
     <h2><i class="fas fa-pencil-alt"></i>RECOMMANDATIONS</h2>
-      <div><span>Pierre Dubuc</span>
-            <span>Co-founder, CEO Openclassrooms</span>
-            <span>Telephone: 01 02 03 04 05</span>
-            <span>Email: pierredubuc@email.com</span>
+    <div id="mesrecommandations">
+      <div id="contact1">
+        <p><strong>Pierre Dubuc</strong><br>
+            Co-founder, CEO Openclassrooms<br>
+            Telephone: 01 02 03 04 05<br>
+            Email: pierredubuc@email.com</p>
       </div>
-      <div><span>Mathieu Nebra</span>
-            <span>Co-founder Openclassrooms</span>
-            <span>Telephone: 01 02 03 04 05</span>
-            <span>Email: mathieunebra@email.com</span>
+      <div id="contact2">
+        <p><strong>Mathieu Nebra</strong><br>
+              Co-founder Openclassrooms<br>
+              Telephone: 01 02 03 04 05<br>
+              Email: mathieunebra@email.com</p>
       </div>
-  </footer> 
+    </div>
+  </footer>
 </body>
 </html>
