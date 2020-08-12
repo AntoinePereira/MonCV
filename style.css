@@ -4,103 +4,71 @@
 }
 body{
   font-family: "mapoliceCV", arial, sans-serif;
- display:flex;
- flex-direction: column;
- border: black solid 10px;
 }
-strong{
-  font-style: bold;
-}
-h2{
-  text-decoration: underline;
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .asouligner{
    text-decoration: underline; 
-   text-decoration-color: #0077B5; 
+   text-decoration-color: black;
+   text-decoration-thickness: 2px;
 }
-h4{
-  font-style: italic;
+.asoulignerbleu{
+  text-decoration: underline; 
+  text-decoration-color: #0077B5;
+  text-decoration-thickness: 2px;
 }
 header{
   justify-content: space-around;
+  background-color: #0077B5;
   color: black;
   text-align: center;
-  padding: 2%;
-  border: #0077B5 solid 5px;
 }
-#nom{
-font-size: 3em;
+#metier{
+  background-color: white;
+  font-size: 1.5em;
+}
+#mon_nom{
+  background-color: white;
 }
 #prenom{
-  font-size: 3em;
   color:#0077B5;
-}
-#devweb{
-  font-size: 2.5em;
 }
 #divphoto{
   background-color: #0077B5;
-}
-#photo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: black solid 5px;
+  padding-top: 20px;
 }
 img{
+  max-width: 200px;
   border-radius: 50%;
-  min-width: 400px;
-  max-width: 1000px;
-  min-height: 300px;
-  max-height: 600px;
 }
-#contact{
-  min-height: 400px;
-  font-size: 3em;
-  padding: 3%;
-  border-top: black solid 15px;
+h1{
+  padding-top: 3px;
+  margin: 0px;
 }
-#apropos{
-  min-height: 400px;
-  font-size: 3em;
-  padding: 3%;
-}
-#loisirs{
-  min-height: 250px;
-  font-size: 3em;
+h2{
   text-align: center;
-  padding-top: 3%;
-  border: black solid 5px;
+  background-color: black;
+  padding-top: 5px;
 }
-#logos{
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 1.3em;
+header h2{
   color: #0077B5;
-  padding: 3%;
 }
-#formation{
-font-size: 3em;
-padding: 2%;
-}
-#xppro{
-  font-size: 3em;
-  padding: 2%;
+main h2{
+  color: white;
 }
 footer{
-  font-size: 3em;
-  color: black;
   background-color: #0077B5;
-  padding: 3%;
-  border-top: black solid 15px;
 }
-#mesrecommandations{
+footer h2{
+  color: #0077B5;
+}
+#logos{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
-  min-height: 800px;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
-
-
-
