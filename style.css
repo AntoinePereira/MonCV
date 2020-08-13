@@ -1,6 +1,6 @@
 @font-face {
   font-family: "mapoliceCV";
-  src: url(SpecialElite.ttf);
+  src: url(OpenSans-Regular.ttf);
 }
 body{
   font-family: "mapoliceCV", arial, sans-serif;
@@ -20,50 +20,61 @@ body{
   text-decoration-color: #0077B5;
   text-decoration-thickness: 2px;
 }
+strong{
+  font-style: bold;
+}
 header{
   justify-content: space-around;
-  background-color: #0077B5;
   color: black;
   text-align: center;
-}
-#metier{
-  background-color: white;
-  font-size: 1.5em;
-}
-#mon_nom{
-  background-color: white;
+  margin-bottom: 15px;
 }
 #prenom{
   color:#0077B5;
 }
+#metier{
+  font-size: 1.5em;
+}
 #divphoto{
-  background-color: #0077B5;
   padding-top: 20px;
+  text-align: center;
 }
 img{
   max-width: 200px;
   border-radius: 50%;
+  border: solid black 3px;
 }
 h1{
   padding-top: 3px;
   margin: 0px;
 }
-h2{
+h4{
+  font-style: italic;
+}
+#sidebar{
+  background-color: #0077B5;
+  color: black;
+}
+#sidebar h2{
   text-align: center;
   background-color: black;
-  padding-top: 5px;
-}
-header h2{
   color: #0077B5;
 }
+#sidebar p{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 main h2{
-  color: white;
+  display: block;
+  border-bottom: solid 2px  #0077B5
 }
 footer{
   background-color: #0077B5;
 }
 footer h2{
   color: #0077B5;
+  text-align: center;
+  background-color: black;
 }
 #logos{
   display: flex;
@@ -71,4 +82,54 @@ footer h2{
   justify-content: space-around;
   font-size: 20px;
   padding-bottom: 20px;
+}
+#logos i{
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+  #mesrecommandations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+
+
+@media (min-width: 991px){
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+  header{
+    display: none;
+    width: 30%;
+  }
+  #contact p{
+    text-align: left;
+    margin-left: 1.5em;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+  }
+  footer{
+    background-color: white;
+  }
+  footer h2{
+    background-color: white;
+    color: black;
+  }
 }
