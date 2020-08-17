@@ -13,12 +13,10 @@ body{
 .asouligner{
    text-decoration: underline; 
    text-decoration-color: black;
-   text-decoration-thickness: 2px;
 }
 .asoulignerbleu{
   text-decoration: underline; 
   text-decoration-color: #0077B5;
-  text-decoration-thickness: 2px;
 }
 strong{
   font-style: bold;
@@ -27,7 +25,7 @@ header{
   justify-content: space-around;
   color: black;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 3vw;
 }
 .prenom{
   color:#0077B5;
@@ -36,7 +34,7 @@ header{
   font-size: 1.5em;
 }
 #divphoto{
-  padding-top: 20px;
+  padding-top: 4vw;
   text-align: center;
 }
 img{
@@ -45,7 +43,7 @@ img{
   border: solid black 3px;
 }
 h1{
-  padding-top: 3px;
+  padding-top: 3vw;
   margin: 0px;
 }
 h4{
@@ -86,7 +84,7 @@ footer h2{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 2em;
   padding-bottom: 20px;
 }
 #logos i{
@@ -152,7 +150,7 @@ footer h2{
   main{
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 40px;
   }
   footer{
     background-color: white;
@@ -160,5 +158,6 @@ footer h2{
   footer h2{
     background-color: white;
     color: black;
+    text-align: left;
   }
 }
