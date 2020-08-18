@@ -1,6 +1,6 @@
 @font-face {
   font-family: "mapoliceCV";
-  src: url(OpenSans-Regular.ttf);
+  src: url(assets/OpenSans-Regular.ttf);
 }
 body{
   font-family: "mapoliceCV", arial, sans-serif;
@@ -19,7 +19,7 @@ body{
   text-decoration-color: #0077B5;
 }
 strong{
-  font-style: bold;
+  font-weight: bold;
 }
 header{
   justify-content: space-around;
@@ -92,16 +92,8 @@ footer h2{
   border-radius: 50%;
   padding: 15px;
 }
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px){
+/* --------------MEDIA QUERIES------------*/
+@media (min-width: 768px){      /*Media tablet*/
   #mesrecommandations{
     display: flex;
     flex-direction: row;
@@ -113,11 +105,12 @@ footer h2{
   #xppro{
     padding: 20px;
   }
+  #contact p{
+    display: flex;
+    flex-direction: column;
+  }
 }
-
-
-
-@media (min-width: 991px){
+@media (min-width: 991px){      /*Media desktop*/
   .container{
     display: flex;
     flex-direction: row;
@@ -146,7 +139,6 @@ footer h2{
   width: 100%;
   text-align: center;
   }
-  
   main{
     display: flex;
     flex-direction: column;
