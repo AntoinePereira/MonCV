@@ -9,6 +9,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align:justify;
 }
 .asouligner{
    text-decoration: underline; 
@@ -68,6 +69,12 @@ h4{
 main h2{
   display: block;
   border-bottom: solid 2px  #0077B5
+}
+#formation div{
+  padding-right: 10%;
+}
+#xppro div{
+  padding-right: 10%;
 }
 footer{
   background-color: #0077B5;
