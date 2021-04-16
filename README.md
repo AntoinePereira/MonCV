@@ -1,3 +1,3 @@
 # MonCV
-Premier exercice de ma formation web developpeur.
-Decouverte du language HTML
+Projet 1 de ma formation web dev OpenClasssrooms.
+Découverte des languages HTML et CSS avec la réalisation d'un CV.
